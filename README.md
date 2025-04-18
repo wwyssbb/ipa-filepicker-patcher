@@ -3,11 +3,7 @@
 **ipa-filepicker-patcher** is a Windows-only command-line tool that automates the process of patching `.ipa` files with a custom certificate and provisioning profile. This tool helps developers and testers quickly sign and modify iOS applications, ensuring that the application identifier (Bundle ID) is updated and the app is ready for installation on a device.
 
 ### Features
-- Patches `.ipa` files by replacing the application identifier (Bundle ID).
-- Supports custom `.p12` certificates and `.mobileprovision` profiles.
-- Outputs a new `.ipa` file with the updated configuration.
-- Uses the `zsign` tool for signing and certificate management.
-
+- Patches `.ipa` files by replacing the application identifier to fix permission issues.
 ---
 
 ## Installation
